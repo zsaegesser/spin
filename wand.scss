@@ -12,19 +12,12 @@ display: inline-block;
 	display: inline-block;
 }
 .box1:hover + .box2 {
-	-webkit-transform: rotate(5000deg)
-	 scale(.1);
+	-webkit-transform: rotate(5000deg);
 	 opacity: 0;
-}
-.box1 {
-	.box2:hover{
-	-webkit-transform: rotate(5000deg)
-	 scale(.1);
-	 opacity: 0;
-	 }
 }
 
-img{
+
+img {
 	height: 200px;
 	width: 200px;
 }
